@@ -46,7 +46,7 @@ def init_set(real_min, real_max, imag_min, imag_max, delta, convergence_prec):
         imag = imag_min
     return L
 
-
+# A simple test run
 m_set = init_set(-2, 0.5, -1, 1, 0.01, 50)
 real_values = []
 imag_values = []
